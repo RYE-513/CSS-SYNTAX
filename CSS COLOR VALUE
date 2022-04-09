@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      #rgb-color {
+         color: rgb(0, 0, 255);
+      }
+   </style>
+</head>
+<body>
+   <p id="rgb-color"> We love Codeliber! </p>
+</body>
+</html>

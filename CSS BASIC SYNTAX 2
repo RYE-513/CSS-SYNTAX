@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      .underlined-text {
+         text-decoration: underline;
+      }
+      .emboldened-text {
+         font-weight: bold;
+      }
+   </style>
+</head>
+<body>
+   <ul>
+      <li class="underlined-text"> I am underlined! </li>
+      <li class="emboldened-text"> I am emboldened! </li>
+      <li class="underlined-text emboldened-text"> I am both underlined and emboldened! </li>
+   </ul>
+</body>
+</html>

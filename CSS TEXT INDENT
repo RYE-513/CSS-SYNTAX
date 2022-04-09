@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      #p1 {
+         text-indent: 15px;
+      }
+      #p2 {
+         text-indent: 25%;
+      }
+   </style>
+</head>
+<body>
+   <p id="p1"> I am an indented text and I love Codeliber! </p>
+   <p id="p2"> I am an indented text and I love Codeliber! </p>
+</body>
+</html>

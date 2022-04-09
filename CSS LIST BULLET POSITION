@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      #outside {
+         list-style-position: outside;
+      }
+      #inside {
+         list-style-position: inside;
+      }
+   </style>
+</head>
+<body>
+   <ol id="outside">
+      <li> Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. </li>
+      <li> Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. </li>
+      <li> Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. </li>
+      <li> Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. </li>
+      <li> Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. </li>
+   </ol>
+   <ol id="inside">
+      <li> Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. </li>
+      <li> Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. </li>
+      <li> Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. </li>
+      <li> Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. </li>
+      <li> Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. </li>
+   </ol>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      h1 {
+         background-color: yellow;
+      }
+      p {
+         background-color: pink;
+      }
+      div {
+         background-color: gray;
+         width: 200px;
+         height: 200px;
+      }
+   </style>
+</head>
+<body>
+   <h1> Hello World! </h1>
+   <p> Learning Web Design at Codeliber is fun! </p>
+   <div></div>
+</body>
+</html>

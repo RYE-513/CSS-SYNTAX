@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      div {
+         padding-top: 30px;
+         padding-right: 50px;
+         padding-bottom: 70px;
+         padding-left: 90px;
+         background: lightgrey;
+         border: 1px solid red;
+      }
+   </style>
+</head>
+<body>
+   <div>
+      I have a top padding of 30px.
+      I have a right padding of 50px.
+      I have a bottom padding of 70px.
+      I have a left padding of 90px.
+   </div>
+</body>
+</html>

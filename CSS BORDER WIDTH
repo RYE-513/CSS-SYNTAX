@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      div {
+         border-width: 10px;
+         border-style: solid;
+         width: 250px;
+         height: 250px;
+         background: yellow;
+      }
+   </style>
+</head>
+<body>
+   <div> Hello World! We love Codeliber! </div>
+</body>
+</html>

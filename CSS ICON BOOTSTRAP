@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+</head>
+<body>
+   <i class="glyphicon glyphicon-ok"></i>
+   <i class="glyphicon glyphicon-arrow-left"></i>
+   <i class="glyphicon glyphicon-arrow-right"></i>
+   <i class="glyphicon glyphicon-eye-close"></i>
+   <i class="glyphicon glyphicon-warning-sign"></i>
+   <i class="glyphicon glyphicon-wrench"></i>
+   <p><b> Note! </b> This demo requires internet connection. </p>
+</body>
+</html>

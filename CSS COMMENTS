@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      p {
+         color: fuchsia;
+         /* a single line CSS comment */
+      }
+      /* a multi-line comment 
+      cause we love CSS but we
+      might still forget what
+      some codes are for */
+   </style>
+</head>
+<body>
+   <p> I love Codeliber! </p>
+</body>
+</html>

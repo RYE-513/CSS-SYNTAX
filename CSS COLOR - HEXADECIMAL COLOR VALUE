@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      #hex-color {
+         color: #808000;
+      }
+   </style>
+</head>
+<body>
+   <p id="hex-color"> We love Codeliber! </p>
+</body>
+</html>

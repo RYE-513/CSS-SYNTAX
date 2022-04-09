@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      #p1 {
+         letter-spacing: normal;
+      }
+      #p2 {
+         letter-spacing: 3px;
+      }
+   </style>
+</head>
+<body>
+   <p id="p1"> Hello World, I am a text and I am looking nice because I'm a text, a text and a text. </p>
+   <p id="p2"> Hello World, I am a text and I am looking nice because I'm a text, a text and a text. </p>
+</body>
+</html>

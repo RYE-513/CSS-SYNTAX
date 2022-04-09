@@ -1,0 +1,22 @@
+<DOCTYPE html>
+<html>
+<head>
+   <title> The white-space Property </title>
+   <style type="text/css">
+      div {
+         white-space: normal;
+         background: lightgrey;
+         border: 1px solid red;
+      }
+   </style>
+</head>
+<body>
+   <div>
+      This is a dummy text, I love Codeliber!
+      This is a dummy text, I love Codeliber!
+      This is a dummy text, I love Codeliber!
+      This is a dummy text, I love Codeliber!
+   </div>
+   <p> Take a look at how we write the dummy text inside the <b>div</b> element. Instead of writing it in a single line we wrote it on multiple lines. This is for us to understand well how the values work. </p>
+</body>
+</html>

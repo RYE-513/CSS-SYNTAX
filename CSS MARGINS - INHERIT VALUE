@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      div#parent {
+         margin-left: 50px;
+         border: 1px solid green;
+      }
+      p#children {
+         margin-left: inherit;
+      }
+   </style>
+</head>
+<body>
+   <h3> The inherit Global Value </h3>
+   <div id="parent">
+      <p id="children"> Lorem ipsum dolor sit amet. This element's left margin is inherited from its parent element. </p>
+   </div>
+</body>
+</html>

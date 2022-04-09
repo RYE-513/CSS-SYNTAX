@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      #p1 {
+         /* offset-x | offset-y | blur-radius | color */
+         text-shadow: 2px 2px 3px red; 
+      }
+      #p2 {
+         /* color | offset-x | offset-y | blur-radius */
+         text-shadow: #173459 1px 0 10px; 
+      }
+      #p3 {
+         /* offset-x | offset-y | color */
+         text-shadow: 2px 2px rgb(128, 0, 255);
+      }
+      #p4 {
+         /* color | offset-x | offset-y */
+         text-shadow: fuchsia 2px 5px;
+      }
+      #p5 {
+         /* offset-x | offset-y */
+         text-shadow: 1px 3px;
+      }
+   </style>
+</head>
+<body>
+   <p id="p1"> Hello World! We are texts and we have shadows. We love Codeliber! </p>
+   <p id="p2"> Hello World! We are texts and we have shadows. We love Codeliber! </p>
+   <p id="p3"> Hello World! We are texts and we have shadows. We love Codeliber! </p>
+   <p id="p4"> Hello World! We are texts and we have shadows. We love Codeliber! </p>
+   <p id="p5"> Hello World! We are texts and we have shadows. We love Codeliber! </p>
+</body>
+</html>

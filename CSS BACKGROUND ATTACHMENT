@@ -1,0 +1,21 @@
+<DOCTYPE html>
+<html>
+<head>
+   <title> The background-attachment Property </title>
+   <style type="text/css">
+      body {
+         background-image: url("images/clouds-bg.jpg");
+         background-attachment: scroll;
+      }
+      p {
+         font-size: 25px;
+         color: white;
+      }
+   </style>
+</head>
+<body>
+   <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dictum vel enim ut iaculis. Donec volutpat diam sed iaculis pulvinar. Aenean sit amet risus ut velit sodales vehicula. Etiam sed ullamcorper sapien. Ut fermentum purus sed rhoncus fringilla. Fusce accumsan egestas tellus, quis hendrerit ipsum scelerisque in. Phasellus tristique arcu vitae nisi lacinia, eget condimentum lectus fringilla. In nisi nunc, consequat in varius at, viverra a arcu. Mauris interdum mattis eros, quis finibus diam facilisis a. Vivamus sagittis eros id massa mollis, sit amet convallis ligula mollis. Mauris vel tortor nec eros volutpat suscipit ullamcorper quis nibh.
+   </p>
+</body>
+</html>

@@ -1,0 +1,7 @@
+body {
+   /* let's stop the background image from */
+   /* repeating to see the effect */
+   background-image: url("images/small-sunflower.png");
+   background-repeat: no-repeat;
+   background-position: top;
+}

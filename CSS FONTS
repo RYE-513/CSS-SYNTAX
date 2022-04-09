@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      p {
+         font-family: Arial, Verdana, sans-serif;
+      }
+   </style>
+</head>
+<body>
+   <p>
+      The browser will pick a font family to use for me, if the browser does not suppprt Arial it will try Verdana.
+      If the browser support Verdana as well then it will select the generic family name sans-serif.
+   </p>
+</body>
+</html>

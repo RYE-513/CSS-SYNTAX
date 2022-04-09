@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      div {
+         padding: 20px;
+         border: 5px solid black;
+         margin: 40px;
+      }
+   </style>
+</head>
+<body>
+   <div> Hello World I am a text! I an the content of this CSS box. </div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<DOCTYPE html>
+<html>
+<head>
+   <title> The padding Property </title>
+   <style type="text/css">
+      h3 {
+         padding: 10px 20px 30px 40px;
+         background: teal;
+         color: white;
+         border: 1px solid red;
+      }
+   </style>
+</head>
+<body>
+   <h3> Hello World! I love Codeliber! </h3>
+</body>
+</html>

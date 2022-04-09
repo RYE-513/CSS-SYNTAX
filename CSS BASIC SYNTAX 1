@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      h1 {
+         font-weight: bold;
+      }
+      p {
+         color: green;
+      }
+   </style>
+</head>
+<body>
+   <h1> I love CSS! </h1>
+   <h1> I love Codeliber! </h1>
+   <p> CSS is very fun to learn especially with Codeliber! </p>
+</body>
+</html>

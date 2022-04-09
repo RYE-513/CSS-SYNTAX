@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      #blue {
+         background-color: blue;
+         width: 200px;
+         height: 200px;
+      }
+      #red {
+         background-color: red;
+         width: 200px;
+         height: 200px;
+      }
+   </style>
+</head>
+<body>
+   <div id="blue"></div>
+   <div id="red"></div>
+</body>
+</html>

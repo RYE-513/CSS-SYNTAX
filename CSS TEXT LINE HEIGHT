@@ -1,0 +1,14 @@
+<DOCTYPE html>
+<html>
+<head>
+   <title> The line-height Property </title>
+   <style type="text/css">
+      div {
+         line-height: normal;
+      }
+   </style>
+</head>
+<body>
+   <div> Hello World! This is a dummy text for the demonstration of the line-height property. Hello World! This is a dummy text for the demonstration of the line-height property. Hello World! This is a dummy text for the demonstration of the line-height property. </div>
+</body>
+</html>

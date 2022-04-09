@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      #p1 {
+         font-style: normal;
+      }
+      #p2 {
+         font-style: italic;
+      }
+      #p3 {
+         font-style: oblique;
+      }
+   </style>
+</head>
+<body>
+   <p id="p1"> I am a normal font. </p>
+   <p id="p2"> I am an italicized font. </p>
+   <p id="p3"> I am an oblique font. </p>
+</body>
+</html>

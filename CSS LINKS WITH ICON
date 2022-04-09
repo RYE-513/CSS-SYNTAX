@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+</head>
+<body>
+   <p> Go to <a href="http://www.example.com">Example.com<i class="material-icons">launch</i></a>. </p>
+   <p><b> Note! </b> This demo requires internet connection. </p>
+</body>
+</html>

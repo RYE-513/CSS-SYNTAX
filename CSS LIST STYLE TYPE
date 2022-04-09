@@ -1,0 +1,20 @@
+<DOCTYPE html>
+<html>
+<head>
+   <title> The list-style-type Property </title>
+   <style type="text/css">
+      ol {
+         list-style-type: none;
+      }
+   </style>
+</head>
+<body>
+   <ol>
+      <li> Apples </li>
+      <li> Oranges </li>
+      <li> Grapes </li>
+      <li> Mangos </li>
+      <li> Bananas </li>
+   </ol>
+</body>
+</html>

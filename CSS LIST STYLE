@@ -1,0 +1,20 @@
+<DOCTYPE html>
+<html>
+<head>
+   <title> The list-style-type Property </title>
+   <style type="text/css">
+      ul {
+         list-style-type: square;
+      }
+   </style>
+</head>
+<body>
+   <ul>
+      <li> Apples </li>
+      <li> Oranges </li>
+      <li> Grapes </li>
+      <li> Mangos </li>
+      <li> Bananas </li>
+   </ul>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      h3 {
+         max-height: 70px;
+         background: lightgreen;
+         /* let's hide the overlapping content */
+         overflow: hidden;
+      }
+   </style>
+</head>
+<body>
+   <h3> Hello World! I love Codeliber! I love Codeliber! Hello World! I love Codeliber! I love Codeliber! Hello World! I love Codeliber! I love Codeliber! </h3>
+   <p> The height of the element above can't be bigger 250px even if the content needs more space. </p>
+   <p> The <b>overflow: hidden</b> CSS declaration hides the overlapping content, in this case it's text. </p>
+</body>
+</html>

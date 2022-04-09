@@ -1,0 +1,14 @@
+<DOCTYPE html>
+<html>
+<head>
+   <title> The font-size Property </title>
+   <style type="text/css">
+      p {
+         font-size: xx-small;
+      }
+   </style>
+</head>
+<body>
+   <p> Hello World! I love Codeliber! </p>
+</body>
+</html>

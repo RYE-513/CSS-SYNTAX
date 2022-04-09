@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      div {
+         border-style: groove;
+         border-width: 5px;
+         border-color: magenta;
+         width: 250px;
+         height: 250px;
+         background: yellow;
+      }
+   </style>
+</head>
+<body>
+   <div></div>
+</body>
+</html>

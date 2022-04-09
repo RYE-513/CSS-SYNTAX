@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      #p1 {
+         text-transform: none;
+      }
+      #p2 {
+         text-transform: capitalize;
+      }
+      #p3 {
+         text-transform: uppercase;
+      }
+      #p4 {
+         text-transform: lowercase;
+      }
+   </style>
+</head>
+<body>
+   <p id="p1"> My case is not changed. </p>
+   <p id="p2"> My case is capitalize. </p>
+   <p id="p3"> This text, yes this text's case is uppercase. </p>
+   <p id="p4"> This text, yes this text's case is lowercase. </p>
+</body>
+</html>

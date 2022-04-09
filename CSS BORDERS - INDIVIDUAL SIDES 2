@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      div {
+         border-top-width: 5px;
+         border-right-width: 10px;
+         border-bottom-width: 15px;
+         border-left-width: 20px;
+         border-color: red;
+         border-style: solid;
+         width: 250px;
+         height: 250px;
+         background: lightgrey;
+      }
+   </style>
+</head>
+<body>
+   <div></div>
+</body>
+</html>

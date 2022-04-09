@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      div {
+         width: 200px;
+         padding: 10px;
+         box-sizing: border-box;
+         /* the actual rendered width of the element is still 200px */
+         background: blue;
+         height: 100px;
+      }
+   </style>
+</head>
+<body>
+   <div></div>
+   <p> The actual rendered width of the element is still 200px. </p>
+   <p> Because of the <b>box-sizing: border-box</b> CSS declaration the padding no longer increases the actual width of the element instead it decreases the content space/area inside. </p>
+</body>
+</html>

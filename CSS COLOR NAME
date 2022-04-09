@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      #color-name {
+         color: maroon;
+      }
+   </style>
+</head>
+<body>
+   <p id="color-name"> We love Codeliber! </p>
+</body>
+</html>
