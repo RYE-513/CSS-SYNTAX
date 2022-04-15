@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      img {
+         border: 1px solid #ddd;
+         border-radius: 5px;
+         padding: 5px;
+         width: 125px;
+      }
+   </style>
+</head>
+<body>
+   <img src="images/blue-planet.jpg" />
+</body>
+</html>

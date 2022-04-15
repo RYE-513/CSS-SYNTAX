@@ -1,0 +1,16 @@
+<DOCTYPE html>
+<html>
+<head>
+   <title> The filter Property </title>
+   <style type="text/css">
+      img {
+         filter: none;
+         max-width: 100%;
+         height: auto;
+      }
+   </style>
+</head>
+<body>
+   <img src="images/city.jpg" />
+</body>
+</html>

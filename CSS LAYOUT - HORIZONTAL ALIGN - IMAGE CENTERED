@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      img {
+         display: block;
+         margin: 0 auto; /* same as margin-top: 0; margin-right: auto; margin-bottom: 0; margin-left: auto; */
+         width: 60%;
+         height: auto;
+      }
+   </style>
+</head>
+<body>
+   <img src="images/road.jpg" />
+</body>
+</html>

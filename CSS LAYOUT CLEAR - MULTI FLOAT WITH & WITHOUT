@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      .div1 {
+         float: left;
+         width: 30%;
+         border: 1px dashed red;
+         margin: 5px;
+      }
+      .div2 {
+         width: 100%;
+         height: 200px;
+         border: 1px dashed black;
+      }
+      .div3 {
+         float: left;
+         width: 30%;
+         border: 1px dashed red;
+         margin: 5px;
+      }
+      .div4 {
+         clear: left;
+         width: 100%;
+         height: 200px;
+         border: 1px dashed black;
+      }
+   </style>
+</head>
+<body>
+   <h3> Without Clear </h3>
+   <div class="container">
+      <div class="div1"> This is a floating div. Lorem ipsum dolor sit amet. </div>
+      <div class="div2"> Lorem ipsum dolor sit amet. Hello World! I love Codeliber! Lorem ipsum dolor sit amet. Hello World! I love Codeliber! </div>
+   </div>
+   <h3> With Clear </h3>
+   <div class="container">
+      <div class="div3"> This is a floating div. Lorem ipsum dolor sit amet. </div>
+      <div class="div4"> This div do not allow elements to float on its left side. Lorem ipsum dolor sit amet. Hello World! I love Codeliber! </div>
+   </div>
+</body>
+</html>

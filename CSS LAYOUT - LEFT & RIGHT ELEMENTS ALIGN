@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      .right {
+         position: absolute;
+         right: 0; /* use left property to align to the left side */
+         width: 60%;
+         padding: 10px;
+         border: 3px solid #173459;
+      }
+   </style>
+</head>
+<body>
+   <div class="right"> Hello World! I love Codeliber! </div>
+</body>
+</html>

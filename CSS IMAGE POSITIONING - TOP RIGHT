@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      .container {
+         position: relative;
+      }
+      span {
+         position: absolute;
+         top: 5px;
+         right: 8px;
+      }
+      img {
+         width: 100%;
+         height: auto;
+         opacity: 0.4;
+      }
+   </style>
+</head>
+<body>
+   <div class="container">
+      <img src="images/road.jpg" />
+      <span> Top Right </span>
+   </div>
+</body>
+</html>

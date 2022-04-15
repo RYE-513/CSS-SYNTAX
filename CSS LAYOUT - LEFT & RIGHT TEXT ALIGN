@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      .left {
+         text-align: left;
+      }
+      .right {
+         text-align: right;
+      }
+      p {
+         background: lightgrey;
+      }
+   </style>
+</head>
+<body>
+   <p class="left"> Lorem ipsum dolor sit amet. </p>
+   <br>
+   <p class="right"> Lorem ipsum dolor sit amet. </p>
+</body>
+</html>

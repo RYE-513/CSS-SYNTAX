@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+</head>
+<body>
+   <h1> Block-Level Elements </h1>
+   <p style="background: gold;"> Take up the full width </p>
+   <div> and always start on a new line. </div>
+</body>
+</html>

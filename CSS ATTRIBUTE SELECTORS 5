@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      a[href^="#"] {
+         color: fuchsia;
+      }
+   </style>
+</head>
+<body>
+   <p> Go to <a href="http://www.example.com">Example.com</a>. </p>
+   <p> Go to <a href="#section1">Section #1</a>. </p>
+   <h2 id="section1" style="margin-top: 1000px; margin-bottom: 1000px"> Section #1 </h2>
+</body>
+</html>

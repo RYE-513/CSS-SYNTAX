@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      .center {
+         margin: 0 auto; /* same as margin-top: 0; margin-right: auto; margin-bottom: 0; margin-left: auto; */
+         width: 60%;
+         padding: 20px;
+         border: 3px solid #173459;
+      }
+   </style>
+</head>
+<body>
+   <div class="center"> Hello World! I love Codeliber! </div>
+</body>
+</html>

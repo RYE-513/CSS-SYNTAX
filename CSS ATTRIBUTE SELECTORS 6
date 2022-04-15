@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      a[title="codeliber" i] {
+         color: red;
+      }
+   </style>
+</head>
+<body>
+   <p> Go to <a href="http://www.example.com" title="CoDELiBer">Example.com</a>. </p>
+   <p> Try to remove the "<b>i</b>" from the attribute selector to see the difference. </p>
+</body>
+</html>

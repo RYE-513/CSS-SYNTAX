@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      div.container {
+         padding-top: 40px;
+         padding-bottom: 40px;
+         background: #903C56;
+      }
+      div.content {
+         background: #89C3D0;
+      }
+   </style>
+</head>
+<body>
+   <div class="container">
+      <div class="content">
+         <p style="margin: 20px; text-align: justify;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse iaculis, arcu a bibendum fermentum, quam nunc accumsan nisl, eu porttitor lectus lectus eget lectus. Nulla congue euismod neque, quis tempus est maximus nec. </p>
+         <p style="margin: 20px; text-align: justify;"> Vivamus magna velit, convallis ut purus at, facilisis lobortis elit. Aenean lacinia efficitur leo, vitae volutpat odio lacinia vitae. Proin nec sodales mauris. Quisque lacus orci, consectetur molestie dolor at, elementum pretium nibh. </p>
+      </div>
+   </div>
+</body>
+</html>

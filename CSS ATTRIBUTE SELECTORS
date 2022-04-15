@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      a[title] {
+         color: red;
+      }
+   </style>
+</head>
+<body>
+   <p> Go to <a href="http://www.example.com">Example.com</a>. </p>
+   <p> Go to <a href="http://www.example.com" title="example">Example.com</a> (with title attribute). </p>
+</body>
+</html>

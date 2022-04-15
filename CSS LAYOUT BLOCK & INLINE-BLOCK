@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      span.block-element {
+         display: block;
+         background: lightgrey;
+         border: 1px solid red;
+      }
+      span.inline-block-element {
+         display: inline-block;
+         background: lightgrey;
+         border: 1px solid red;
+      }
+   </style>
+</head>
+<body>
+   <h3> Block Element </h3>
+   <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse iaculis, arcu a bibendum fermentum, quam nunc accumsan nisl, eu porttitor lectus lectus eget lectus. <span class="block-element"> Hello World! </span> <span class="block-element"> Love Codeliber! </span> Nulla congue euismod neque, quis tempus est maximus nec. Proin egestas justo sollicitudin sapien sollicitudin, nec congue eros lobortis. Curabitur ultricies laoreet ex quis ullamcorper. </p>
+   <h3> Inline-Block Element </h3>
+   <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse iaculis, arcu a bibendum fermentum, quam nunc accumsan nisl, eu porttitor lectus lectus eget lectus. <span class="inline-block-element"> Hello World! </span> <span class="inline-block-element"> Love Codeliber! </span> Nulla congue euismod neque, quis tempus est maximus nec. Proin egestas justo sollicitudin sapien sollicitudin, nec congue eros lobortis. Curabitur ultricies laoreet ex quis ullamcorper. </p>
+</body>
+</html>

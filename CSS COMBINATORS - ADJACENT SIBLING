@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      li#two + li {
+         color: red;
+      }
+   </style>
+</head>
+<body>
+   <ul>
+      <li> One </li>
+      <li id="two"> Two </li>
+      <li> Three </li>
+      <li> Four </li>
+   </ul>
+</body>
+</html>
