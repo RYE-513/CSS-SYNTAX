@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      input:in-range {
+         color: green;
+         border: 2px solid green;
+      }
+      input:out-of-range {
+         color: red;
+         border: 2px solid red;
+      }
+   </style>
+</head>
+<body>
+   <p> The <b>:out-of-range</b> CSS pseudo-class represents an <b>&lt;input&gt;</b> element whose current value is outside the range limits specified by the <b>min</b> and <b>max</b> attributes. </p>
+   
+   <h3> Example: </h3>
+   
+   <form action="#">
+      <input type="number" min="10" max="20" />
+   </form>
+   <p> If the value is 10, 20 or between them the <b>&lt;input&gt;</b> element turns green otherwise red. </p>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      input:enabled {
+         color: red;
+         border: 2px solid #173459;
+      }
+   </style>
+</head>
+<body>
+   <p>The <b>:enabled</b> CSS pseudo-class represents any enabled element. An element is enabled if it can be activated (selected, clicked on, typed into, etc.) or accept focus. </p>
+   <p> Input elements are enabled by default. </p>
+   
+   <h3> Example: </h3>
+   <form action="#">
+      First Name: <input type="text" name="first-name" value="Juan" />
+      <br />
+      Last Name: <input type="text" name="last-name" value="Dela Cruz" disabled />
+   </form>
+</body>
+</html>

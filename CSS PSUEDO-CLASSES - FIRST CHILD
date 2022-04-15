@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      p:first-child {
+         background: #173459;
+         color: #f8f9f9;
+      }
+   </style>
+</head>
+<body>
+   <p> The <b>:first-child</b> CSS pseudo-class represents the first element among a group of sibling elements. </p>
+   
+   <h3> Example: </h3>
+   <div>
+      <p> I love Codeliber and I am selected! </p>
+      <p> I love Codeliber and I am NOT selected! </p>
+   </div>
+</body>
+</html>

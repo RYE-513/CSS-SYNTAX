@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      .blue-input:focus {
+         color: blue;
+         outline: 2px solid blue;
+      }
+      .green-input:focus {
+         color: green;
+         outline: 2px solid green;
+      }
+   </style>
+</head>
+<body>
+   <p> The <b>:focus</b> CSS pseudo-class represents an element (such as a form input) that has received focus. </p>
+   <p> It is generally triggered when the user clicks or taps on an element or selects it with the keyboard's "tab" key. </p>
+   
+   <h3> Example: </h3>
+   <form action="#">
+      <input type="text" class="blue-input" value="I will turn blue when focused" />
+      <input type="text" class="green-input" value="I will turn green when focused" />
+   </form>
+</body>
+</html>

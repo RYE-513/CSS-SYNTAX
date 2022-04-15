@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      p::selection, textarea::selection {
+         color: #f8f9f9;
+         background-color: #173459;
+      }
+   </style>
+</head>
+<body>
+   <p> Hello World! I love Codeliber! Try to long-press a word to highlight it or double-click a word on the textarea. </p>
+   <textarea> Hello World! I love Codeliber! </textarea>
+</body>
+</html>

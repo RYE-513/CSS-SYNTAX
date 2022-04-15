@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      p:last-child {
+         background: #173459;
+         color: #f8f9f9;
+      }
+   </style>
+</head>
+<body>
+   <p> The <b>:last-child</b> CSS pseudo-class represents the last element among a group of sibling elements. </p>
+   
+   <h3> Example: </h3>
+   <div>
+      <p> I am first! </p>
+      <p> I am second! </p>
+      <p> I am last! </p>
+   </div>
+</body>
+</html>

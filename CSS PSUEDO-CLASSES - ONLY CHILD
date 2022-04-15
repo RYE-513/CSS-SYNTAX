@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      p:only-child, span:only-child {
+         background: #903C56;
+         color: #f8f9f9;
+      }
+   </style>
+</head>
+<body>
+   <p> The <b>:only-child</b> CSS pseudo-class represents an element without any siblings. </p>
+   
+   <h3> Example #1: </h3>
+   
+   <div>
+      <p> Lorem ipsum dolor sit amet. </p>
+   </div>
+   
+   <div>
+      <p> Lorem ipsum dolor sit amet. </p>
+      <p> Lorem ipsum dolor sit amet. </p>
+   </div>
+   
+   <h3> Example #2: </h3>
+   <div>
+      <p> Lorem ipsum dolor sit amet. </p>
+   </div>
+   
+   <div>
+      <p> <span>Lorem</span> ipsum dolor sit amet. </p>
+      <p> Lorem ipsum dolor sit amet. </p>
+   </div>
+   
+   <p> On the example above <b>&lt;span&gt;</b> element inside the <b>&lt;p&gt;</b> element gets selected because it's the only child element (has no sibling elements). </p>
+</body>
+</html>

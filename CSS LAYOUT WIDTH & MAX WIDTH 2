@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      div {
+         width: 600px;
+         background: gold;
+      }
+   </style>
+</head>
+<body>
+   <div> Hello World! I love Codeliber! </div>
+   <p> Now the browser window is scrollable because the width of the <b>div</b> element is bigger than the browser window. </p>
+</body>
+</html>

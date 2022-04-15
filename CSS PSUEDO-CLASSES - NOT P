@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      .div1 :not(p) {
+         /* selects all elements which is not a <p> element */
+         /* inside the <div class="div1"> element */
+         color: red;
+      }
+         /* selects all elements which is not a <p> element */
+         /* and don't have the class sorry inside the */
+         /* <div class="div2"> element */
+      .div2 p:not(.sorry) {
+         color: red;
+      }
+   </style>
+</head>
+<body>
+   <p> The <b>:not()</b> CSS pseudo-class represents elements that do not match a list of selectors. Since it prevents specific items from being selected, it is known as the negation pseudo-class. </p>
+   
+   <h3> Example: </h3>
+   
+   <p> On the example below all elements inside the &lt;div&gt; except the &lt;p&gt; element are selected. </p>
+   <div class="div1">
+      <h4> I am a heading element </h3>
+      <span> I am a span element </span>
+      <p> I am a paragraph element I don't get selected. </p>
+   </div>
+   
+   <hr />
+   
+   <p> On the example below all elements inside the &lt;div&gt; except the &lt;p&gt; element with the class name <b>sorry</b> are selected. </p>
+   <div class="div2">
+      <p> I am a paragraph I DON'T have the <b>sorry</b> class name. </p>
+      <p class="sorry"> I am a paragraph I have the <b>sorry</b> class name. </p>
+      <p> I am a paragraph I DON'T have the <b>sorry</b> class name. </p>
+   </div>
+</body>
+</html>

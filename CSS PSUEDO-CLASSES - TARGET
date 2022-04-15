@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      p:target {
+         background: #173459;
+         color: #f8f9f9;
+         padding: 10px;
+         transition-duration: 2s;
+      }
+   </style>
+</head>
+<body>
+   <p>The <b>:target</b> CSS pseudo-class represents a unique element (the target element) with an id matching the URL's fragment. </p>
+   
+   <h3> Example: </h3>
+   <p> Click the links to go to those paragraphs (or fragments in this case). </p>
+   <div>
+      <h2> Table of Contents </h2>
+      <ul>
+         <li><a href="#p1"> Paragraph #1 </a></li>
+         <li><a href="#p2"> Paragraph #2 </a></li>
+         <li><a href="#p3"> Paragraph #3 </a></li>
+         <li><a href="#p4"> Paragraph #4 </a></li>
+         <li><a href="#p5"> Paragraph #5 </a></li>
+      </ul>
+   </div>
+   
+   <div>
+      <p id="p1"> 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse iaculis, arcu a bibendum fermentum, quam nunc accumsan nisl, eu porttitor lectus lectus eget lectus. Nulla congue euismod neque, quis tempus est maximus nec. Proin egestas justo sollicitudin sapien sollicitudin, nec congue eros lobortis. Curabitur ultricies laoreet ex quis ullamcorper. </p>
+      <p id="p2"> 2. Vivamus magna velit, convallis ut purus at, facilisis lobortis elit. Aenean lacinia efficitur leo, vitae volutpat odio lacinia vitae. Proin nec sodales mauris. Quisque lacus orci, consectetur molestie dolor at, elementum pretium nibh. Morbi ornare risus urna, nec ultricies augue pharetra non. Nulla pulvinar ornare ipsum, cursus sagittis dolor suscipit vel. </p>
+      <p id="p3"> 3. Maecenas dictum metus in leo aliquam, nec pellentesque mauris vulputate. Phasellus dui eros, efficitur et turpis a, lacinia sollicitudin lectus. In hac habitasse platea dictumst. Sed dictum augue lectus, sit amet condimentum mauris maximus nec. Fusce at ante id lorem volutpat tincidunt. In a rhoncus quam. Morbi sollicitudin accumsan velit. </p>
+      <p id="p4"> 4. Vivamus magna velit, convallis ut purus at, facilisis lobortis elit. Aenean lacinia efficitur leo, vitae volutpat odio lacinia vitae. Proin nec sodales mauris. Quisque lacus orci, consectetur molestie dolor at, elementum pretium nibh. Morbi ornare risus urna, nec ultricies augue pharetra non. Nulla pulvinar ornare ipsum, cursus sagittis dolor suscipit vel. </p>
+      <p id="p5"> 5. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse iaculis, arcu a bibendum fermentum, quam nunc accumsan nisl, eu porttitor lectus lectus eget lectus. Nulla congue euismod neque, quis tempus est maximus nec. Proin egestas justo sollicitudin sapien sollicitudin, nec congue eros lobortis. Curabitur ultricies laoreet ex quis ullamcorper. </p>
+   </div>
+</body>
+</html>

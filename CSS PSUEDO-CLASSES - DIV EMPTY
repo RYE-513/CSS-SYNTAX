@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      div:empty {
+         width: 200px;
+         height: 200px;
+         background: #173459;
+      }
+   </style>
+</head>
+<body>
+   <p> The <b>:empty</b> CSS pseudo-class represents any element that has no children. Children can either be element nodes or text. </p>
+   
+   <h3> Example: </h3>
+   <div></div>
+   <div> Hey I am a div! I am not empty! </div>
+   <div><p> Hey! I am a paragraph element inside a div so the div is not empty. </p></div>
+</body>
+</html>

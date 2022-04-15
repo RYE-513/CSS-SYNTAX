@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      a:visited {
+         color: lime;
+      }
+   </style>
+</head>
+<body>
+   <p> The <b>:visited</b> CSS pseudo-class represents links that the user has already visited. </p>
+   
+   <h3> Example #1: </h3>
+   <p> You may need to test this example on a real browser. To do that, just save this file as <b>filename.html</b> and open it with any browser of your choice. </p>
+   <p> Go to <a href="http://www.example.com">Example.com</a>. </p>
+   
+   <h3> Example #2: </h3>
+   <p> Go to <a href="#p1">Paragraph #1</a>
+   <p id="p1"> 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse iaculis, arcu a bibendum fermentum, quam nunc accumsan nisl, eu porttitor lectus lectus eget lectus. Nulla congue euismod neque, quis tempus est maximus nec. Proin egestas justo sollicitudin sapien sollicitudin, nec congue eros lobortis. Curabitur ultricies laoreet ex quis ullamcorper. </p>
+</body>
+</html>

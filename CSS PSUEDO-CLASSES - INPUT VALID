@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      input:valid {
+         color: green;
+         border: 2px solid green;
+      }
+      input:invalid {
+         color: red;
+         border: 2px solid red;
+      }
+   </style>
+</head>
+<body>
+   <p> The <b>:valid</b> CSS pseudo-class represents any <b>&lt;input&gt;</b> or other form element whose contents validate successfully. </p>
+   
+   <h3> Example: </h3>
+   
+   <form action="#">
+      <label for="website-url"> Your Dream Website URL: </label>
+      <input type="url" name="website-url" id="website-url">
+      <br>
+      <label for="email"> Your Email Address: </label>
+      <input type="email" name="email" id="email">
+   </form>
+   <p> If the value is valid the <b>&lt;input&gt;</b> turns green. </p>
+   <p> If the value is invalid the <b>&lt;input&gt;</b> turns red. </p>
+</body>
+</html>

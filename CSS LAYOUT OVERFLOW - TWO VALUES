@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      div.container {
+         overflow: scroll hidden; /* same as overflow-x: scroll; overflow-y: hidden; */
+         width: 200px;
+         height: 200px;
+         border: 1px solid black;
+      }
+      div.content {
+         width: 400px;
+         height: 400px;
+         background: #173459;
+         color: white;
+      }
+   </style>
+</head>
+<body>
+   <div class="container">
+      <div class="content"> Hello World! I love Codeliber! </div>
+   </div>
+   <p> The <b>overflow-x</b> property is set to <b>scroll</b> while the <b>overflow-y</b> property is set to <b>hidden</b>. </p>
+</body>
+</html>

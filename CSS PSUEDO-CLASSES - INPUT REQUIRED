@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      input:required {
+         background: lightgrey;
+         color: red;
+      }
+   </style>
+</head>
+<body>
+   <p> The <b>:required</b> CSS pseudo-class represents any form element that has the <b>required</b> attribute set on it. </p>
+   
+   <h3> Example: </h3>
+   
+   <form action="#">
+      <label>
+         * First Name: <input type="text" name="first-name" required />
+      </label>
+      <br />
+      <label>
+         * Last Name: <input type="text" name="last-name" required />
+      </label>
+      <br />
+      <label>
+         Age: <input type="number" name="age" />
+      </label>
+   </form>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      div > :read-write {
+         outline: 2px solid yellow;
+      }
+   </style>
+</head>
+<body>
+   <p> The <b>:read-write</b> CSS pseudo-class represents an element (such as <b>&lt;input&gt;</b> or <b>&lt;textarea&gt;</b>) that is editable by the user. </p>
+   
+   <h3> Example: </h3>
+   <div>
+      <input type="text" value="This field is editable" />
+      <input type="text" value="This field is NOT editable" readonly />
+      <p contenteditable="true"> This paragraph is editable. </p>
+      <p> This paragraph is NOT editable. </p>
+   </div>
+</body>
+</html>

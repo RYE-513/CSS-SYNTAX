@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      div {
+         position: relative;
+      }
+      p.top-left {
+         position: absolute;
+         top: 5px;
+         left: 8px;
+      }
+      p.top-right {
+         position: absolute;
+         top: 5px;
+         right: 8px;
+      }
+      p.center {
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         font-size: 16px;
+      }
+      p.bottom-left {
+         position: absolute;
+         bottom: 5px;
+         left: 8px;
+      }
+      p.bottom-right {
+         position: absolute;
+         bottom: 5px;
+         right: 8px;
+      }
+      img {
+         width: 100%;
+         height: auto;
+         opacity: 0.4
+      }
+   </style>
+</head>
+<body>
+   <div>
+      <img src="images/road.jpg" />
+      <p class="top-left"> Top Left </p>
+      <p class="top-right"> Top Right </p>
+      <p class="center"> Centered Text </p>
+      <p class="bottom-left"> Bottom Left </p>
+      <p class="bottom-right"> Bottom Right </p>
+   </div>
+</body>
+</html>

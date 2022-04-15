@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+</head>
+<body>
+   <span> Inline elements </span>
+   <i> don't take up the full </i>
+   <a href="http://www.example.com">width and does not start on a new line</a>
+   <img src="images/tiny-star.png" />
+</body>
+</html>

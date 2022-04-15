@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      div {
+         max-width: 600px;
+         background: gold;
+      }
+   </style>
+</head>
+<body>
+   <div> Hello World! I love Codeliber! </div>
+   <p> Try rotating your device to landscape then back to portrait. </p>
+   <p> Now the browser will no longer render the <b>div</b> element with <b>600px</b> on smaller screens (windows). But will still render the <b>div</b> element with <code>600px</code> width if there is space available. </p>
+</body>
+</html>

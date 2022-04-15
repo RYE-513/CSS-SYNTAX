@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      a:link {
+         color: green;
+      }
+   </style>
+</head>
+<body>
+   <p> Go to <a href="http://www.example.com">Example.com</a>. </p>
+</body>
+</html>

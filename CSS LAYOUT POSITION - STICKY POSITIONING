@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      body {
+         padding: 0px;
+         margin: 0px;
+         font-family: sans-serif;
+      }
+      div {
+         position: sticky;
+         position: -webkit-sticky; /* for Safari */
+         top: 0px;
+         left: 0px;
+         width: 100%;
+         color: white;
+         padding: 5px;
+         font-size: 18px;
+      }
+      .div1 {
+         background: #173459;
+      }
+      .div2 {
+         background: #78969D;
+      }
+      .div3 {
+         background: #903C56;
+      }
+      .div4 {
+         background: #89C3D0;
+      }
+      p {
+         padding: 0 10px;
+      }
+   </style>
+</head>
+<body>
+   <div class="div1"> Hello World! I love Codeliber! </div>
+   <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse iaculis, arcu a bibendum fermentum, quam nunc accumsan nisl, eu porttitor lectus lectus eget lectus. Nulla congue euismod neque, quis tempus est maximus nec. Proin egestas justo sollicitudin sapien sollicitudin, nec congue eros lobortis. Curabitur ultricies laoreet ex quis ullamcorper. Suspendisse potenti. Donec facilisis lacinia ullamcorper. Aenean ac erat vitae arcu cursus tristique. Nullam non dui velit. Nullam sit amet lacus quis nibh vestibulum maximus. Suspendisse interdum leo felis, ac aliquam diam volutpat at. </p>
+   <div class="div2"> Hello World! I love Codeliber! </div>
+   <p> Vivamus magna velit, convallis ut purus at, facilisis lobortis elit. Aenean lacinia efficitur leo, vitae volutpat odio lacinia vitae. Proin nec sodales mauris. Quisque lacus orci, consectetur molestie dolor at, elementum pretium nibh. Morbi ornare risus urna, nec ultricies augue pharetra non. Nulla pulvinar ornare ipsum, cursus sagittis dolor suscipit vel. Proin augue justo, consequat a nulla ac, vestibulum fermentum orci. Donec hendrerit massa mauris, quis bibendum lectus aliquet at. Donec mattis nisi nec ipsum tincidunt euismod. Proin interdum tellus a elit pellentesque, vel condimentum lectus ultricies. Sed malesuada urna nec quam placerat bibendum. Etiam a quam vitae mauris blandit efficitur. </p>
+   <div class="div3"> Hello World! I love Codeliber! </div>
+   <p> Maecenas dictum metus in leo aliquam, nec pellentesque mauris vulputate. Phasellus dui eros, efficitur et turpis a, lacinia sollicitudin lectus. In hac habitasse platea dictumst. Sed dictum augue lectus, sit amet condimentum mauris maximus nec. Fusce at ante id lorem volutpat tincidunt. In a rhoncus quam. Morbi sollicitudin accumsan velit. </p>
+   <div class="div4"> Hello World! I love Codeliber! </div>
+   <p> Aliquam laoreet lectus a est venenatis semper in sit amet arcu. Suspendisse potenti. Curabitur quis luctus ante. Curabitur vehicula libero a odio euismod, sed aliquam velit aliquam. Maecenas accumsan, ipsum vel pharetra euismod, nunc lectus faucibus ligula, id malesuada risus lectus in metus. Nunc ligula lectus, ornare sit amet tortor at, dignissim dictum ex. Cras finibus posuere diam, non suscipit diam venenatis vitae. Fusce laoreet, erat vel volutpat cursus, tortor diam venenatis elit, sit amet commodo augue mi eget eros. Mauris ac viverra velit, id suscipit leo. </p>
+   <p> Mauris et lectus dolor. Maecenas tincidunt lacinia convallis. Donec facilisis turpis ut fringilla laoreet. Mauris eget tortor mauris. Curabitur sed consequat arcu. Curabitur quam sem, pharetra consequat hendrerit sed, blandit at nisi. Proin elementum, nulla sed blandit efficitur, erat turpis volutpat velit, vel sodales nisi mauris vel nibh. Vestibulum ultricies, urna eu iaculis commodo, quam urna vulputate dui, sit amet lobortis erat purus a mi. Praesent neque ipsum, egestas non feugiat vitae, commodo non nisi. Curabitur eget lectus orci. Integer feugiat facilisis nunc, at facilisis risus scelerisque id. Quisque eu euismod leo. Quisque sem enim, laoreet et vestibulum eget, varius sed neque. Nulla ornare et orci ac imperdiet. Duis dapibus sagittis metus ac viverra. </p>
+   <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse iaculis, arcu a bibendum fermentum, quam nunc accumsan nisl, eu porttitor lectus lectus eget lectus. Nulla congue euismod neque, quis tempus est maximus nec. Proin egestas justo sollicitudin sapien sollicitudin, nec congue eros lobortis. Curabitur ultricies laoreet ex quis ullamcorper. Suspendisse potenti. Donec facilisis lacinia ullamcorper. Aenean ac erat vitae arcu cursus tristique. Nullam non dui velit. Nullam sit amet lacus quis nibh vestibulum maximus. Suspendisse interdum leo felis, ac aliquam diam volutpat at. </p>
+</body>
+</html>

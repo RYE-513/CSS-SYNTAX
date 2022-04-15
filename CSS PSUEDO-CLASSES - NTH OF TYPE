@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      span:nth-of-type(1), span:nth-of-type(2) {
+         background: #173459;
+         color: #f8f9f9;
+      }
+   </style>
+</head>
+<body>
+   <p> The <b>:nth-of-type(&lt;number&gt;)</b> CSS pseudo-class matches elements of a given type, based on their position among a group of siblings. </p>
+   
+   <h3> Example: </h3>
+   <div>
+      <em> Hello World! </em>
+      <span> This is the first span. </span>
+      <tt> I love Codeliber! </tt>
+      <span> This is the second span. </span>
+      <strike> Lorem ipsum dolor sit amet. </strike>
+      <u> Lorem hello this is a text. </u>
+      <span> This is the third span. </span>
+      <span> This is the fourth span. </span>
+   </div>
+</body>
+</html>

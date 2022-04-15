@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      span:only-of-type {
+         background: #78969D;
+         color: #f8f9f9;
+      }
+   </style>
+</head>
+<body>
+   <p> The <b>:only-of-type</b> CSS pseudo-class represents an element that has no siblings of the same type. </p>
+   
+   <h3> Example: </h3>
+   <p> In this example, the <b>&lt;span&gt;</b> element is only selected if it is the only <b>&lt;span&gt;</b> element inside its parent. </p>
+   
+   <div>
+      <em> Hello World! I love Codeliber! </em>
+      <span> I am the only <b>span</b> element inside this <b>div</b> element. </span>
+   </div>
+   
+   <div>
+      <i> Lorem ipsum dolor sit amet. </i>
+      <span> I am NOT THE ONLY <b>span</b> element inside this <b>div</b> element. </span>
+      <span> I am NOT THE ONLY <b>span</b> element inside this <b>div</b> element. </span>
+   </div>
+</body>
+</html>

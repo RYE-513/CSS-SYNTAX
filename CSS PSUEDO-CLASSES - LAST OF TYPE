@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      h2:last-of-type {
+         background: #173459;
+         color: #f8f9f9;
+      }
+   </style>
+</head>
+<body>
+   <p>The <b>:last-of-type</b> CSS pseudo-class represents the last element of its type among a group of sibling elements. </p>
+   
+   <h3> Example: </h3>
+   <div>
+      <h4> Hello World! </h4>
+      <h2> I really love Codeliber! </h2>
+      <h2> I really love Codeliber! </h2>
+      <h4> Hello World! </h4>
+   </div>
+</body>
+</html>

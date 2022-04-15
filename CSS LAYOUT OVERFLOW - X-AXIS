@@ -1,0 +1,22 @@
+<DOCTYPE html>
+<html>
+<head>
+   <title> The overflow-x Property </title>
+   <style type="text/css">
+      div {
+         overflow-x: visible;
+         width: 200px;
+         height: 200px;
+         border: 1px solid black;
+      }
+   </style>
+</head>
+<body>
+   <div>
+      <p> Hello World! </p>
+      <p> 1663378292074747281901747479302207482727272718827635627281199 </p>
+      <p> Hello World! </p>
+      <p> 1663378292074747281901747479302207482727272718827635627281199 </p>
+   </div>
+</body>
+</html>

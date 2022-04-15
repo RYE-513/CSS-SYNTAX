@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      div.container {
+         position: relative;
+         width: 300px;
+         height: 300px;
+         background: #78969D;
+      }
+      div.absolute {
+         position: absolute;
+         bottom: 10px;
+         right: 10px;
+         width: 50px;
+         height: 50px;
+         background: #f8f9f9;
+      }
+   </style>
+</head>
+<body>
+   <div class="container">
+      <div class="absolute"></div>
+   </div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      :root {
+         background: #78969D;
+      }
+   </style>
+</head>
+<body>
+   <p> The <b>:root</b> CSS pseudo-class matches the root element of a tree representing the document. In HTML, <b>:root</b> represents the <b>&lt;html&gt;</b> element. </p>
+   
+   <h3> Example: </h3>
+   <p> As an example, we have changed the document's background color. </p>
+</body>
+</html>

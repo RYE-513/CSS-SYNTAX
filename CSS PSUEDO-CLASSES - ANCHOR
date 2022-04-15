@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      a:link {
+         color: orange;
+      }
+      a:visited {
+         color: red;
+      }
+      a:hover {
+         color: green;
+      }
+      a:active {
+         color: pink;
+      }
+   </style>
+</head>
+<body>
+   <p> Go to <a href="http://www.example.com">Example.com</a>. </p>
+</body>
+</html>

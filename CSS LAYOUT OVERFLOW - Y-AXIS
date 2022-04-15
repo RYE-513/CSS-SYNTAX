@@ -1,0 +1,21 @@
+<DOCTYPE html>
+<html>
+<head>
+   <title> The overflow-y Property </title>
+   <style type="text/css">
+      div {
+         overflow-y: visible;
+         width: 200px;
+         height: 200px;
+         border: 1px solid black;
+      }
+   </style>
+</head>
+<body>
+   <div>
+      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse iaculis, arcu a bibendum fermentum, quam nunc accumsan nisl, eu porttitor lectus lectus eget lectus. Nulla congue euismod neque, quis tempus est maximus nec. Proin egestas justo sollicitudin sapien sollicitudin, nec congue eros lobortis. Curabitur ultricies laoreet ex quis ullamcorper. Suspendisse potenti. Donec facilisis lacinia ullamcorper. Aenean ac erat vitae arcu cursus tristique. Nullam non dui velit. Nullam sit amet lacus quis nibh vestibulum maximus. Suspendisse interdum leo felis, ac aliquam diam volutpat at. </p>
+      <p> Vivamus magna velit, convallis ut purus at, facilisis lobortis elit. Aenean lacinia efficitur leo, vitae volutpat odio lacinia vitae. Proin nec sodales mauris. Quisque lacus orci, consectetur molestie dolor at, elementum pretium nibh. Morbi ornare risus urna, nec ultricies augue pharetra non. Nulla pulvinar ornare ipsum, cursus sagittis dolor suscipit vel. Proin augue justo, consequat a nulla ac, vestibulum fermentum orci. Donec hendrerit massa mauris, quis bibendum lectus aliquet at. Donec mattis nisi nec ipsum tincidunt euismod. Proin interdum tellus a elit pellentesque, vel condimentum lectus ultricies. Sed malesuada urna nec quam placerat bibendum. Etiam a quam vitae mauris blandit efficitur. </p>
+      <p> Maecenas dictum metus in leo aliquam, nec pellentesque mauris vulputate. Phasellus dui eros, efficitur et turpis a, lacinia sollicitudin lectus. In hac habitasse platea dictumst. Sed dictum augue lectus, sit amet condimentum mauris maximus nec. Fusce at ante id lorem volutpat tincidunt. In a rhoncus quam. Morbi sollicitudin accumsan velit. </p>
+   </div>
+</body>
+</html>

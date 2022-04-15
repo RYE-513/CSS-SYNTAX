@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      .div1 {
+         margin: 0 auto; /* same as margin-top: 0; margin-bottom: 0; margin-left: auto; margin-right: auto; */
+         width: 270px;
+         height: 300px;
+         background: pink;
+      }
+      .div2 {
+         margin: 0 auto; /* same as margin-top: 0; margin-bottom: 0; margin-left: auto; margin-right: auto; */
+         max-width: 600px;
+         height: 300px;
+         background: green;
+      }
+   </style>
+</head>
+<body>
+   <div class="div1"> Hello World! I love Codeliber! </div>
+   <div class="div2"> Hello World! I love Codeliber! </div>
+</body>
+</html>

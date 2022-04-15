@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      p:lang(en) > q {
+         color: blue;
+         quotes: '\201C' '\201D' '\2018' '\2019';
+      }
+      p:lang(fr) > q {
+         color: red;
+         quotes: '« ' ' »';
+      }
+      p:lang(de) > q {
+         color: green;
+         quotes: '»' '«' '\2039' '\203A';
+      }
+   </style>
+</head>
+<body>
+   <p> The <b>:lang(&lt;language-code&gt;)</b> CSS pseudo-class matches elements based on the language they are determined to be in. </p>
+   
+   <h3> Example: </h3>
+   <p lang="en"><q> Hello World! I love Codeliber! </q></p>
+   <p lang="fr"><q> Hello World! I love Codeliber! </q></p>
+   <p lang="de"><q> Hello World! I love Codeliber! </q></p>
+   <p> In the example above we use the child combinator to select the <b>&lt;q&gt;</b> elements inside the <b>&lt;p&gt;</b> elements then we specified the quotation marks using the <b>quotes</b> CSS property. </p>
+</body>
+</html>

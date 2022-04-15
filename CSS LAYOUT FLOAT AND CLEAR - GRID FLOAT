@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      * {
+         box-sizing: border-box;
+      }
+      html, body {
+         padding: 0;
+         margin: 0;
+      }
+      .container::after {
+         content: "";
+         display: block; 
+         clear: both;
+      }
+      .box {
+         width: 33.33%; /* 100% / 3 = 33.33% */
+         padding-top: 70px;
+         padding-bottom: 70px;
+         text-align: center;
+         float: left;
+         border-right: 1px solid black;
+         background: lightgrey;
+      }
+   </style>
+</head>
+<body>
+   <div class="container">
+      <div class="box"> Lorem ipsum </div>
+      <div class="box"> Lorem ipsum </div>
+      <div class="box"> Lorem ipsum </div>
+   </div>
+   <br>
+   <p> This is a three-column layout of grid boxes where all boxes are equal in size. </p>
+</body>
+</html>

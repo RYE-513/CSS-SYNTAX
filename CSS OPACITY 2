@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      div {
+         color: #f8f9f9;
+         background-color: #173459;
+         padding: 20px;
+      }
+      .light {
+         opacity: 0.3;
+      }
+      .medium {
+         opacity: 0.7;
+      }
+      .heavy {
+         opacity: 0.9;
+      }
+   </style>
+</head>
+<body>
+   <div class="light"> Hello World! I love Codeliber! </div>
+   <div class="medium"> Hello World! I love Codeliber! </div>
+   <div class="heavy"> Hello World! I love Codeliber! </div>
+</body>
+</html>

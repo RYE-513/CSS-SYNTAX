@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      p::first-letter {
+         text-decoration: overline;
+         font-size: 250%;
+         color: red;
+      }
+   </style>
+</head>
+<body>
+   <p> Lorem ipsum dolor sit amet. </p>
+</body>
+</html>

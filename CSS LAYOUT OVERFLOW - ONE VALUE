@@ -1,0 +1,25 @@
+<DOCTYPE html>
+<html>
+<head>
+   <title> The overflow Property </title>
+   <style type="text/css">
+      div.container {
+         overflow: visible;
+         width: 200px;
+         height: 200px;
+         border: 2px solid #903C56;
+      }
+      div.content {
+         width: 400px;
+         height: 400px;
+         background: #173459;
+         color: white;
+      }
+   </style>
+</head>
+<body>
+   <div class="container">
+      <div class="content"> Hello World! I love Codeliber! </div>
+   </div>
+</body>
+</html>

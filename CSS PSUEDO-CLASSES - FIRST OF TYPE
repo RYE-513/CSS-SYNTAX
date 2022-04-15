@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      h2:first-of-type {
+         background: #173459;
+         color: #f8f9f9;
+      }
+   </style>
+</head>
+<body>
+   <p> The <b>:first-of-type</b> CSS pseudo-class represents the first element of its type among a group of sibling elements. </p>
+   
+   <h3> Example: </h3>
+   <p> The content of the <b>&lt;div&gt;</b> element below is a group of sibling elements. </p>
+   <div>
+      <h3> I love Codeliber! </h3>
+      <h2> I love Codeliber! </h2>
+      <h2> I love Codeliber! </h2>
+   <div>
+   <p> The first <b>&lt;h2&gt;</b> element gets selected because it's the first of its type among the group of sibling elements. </p>
+</body>
+</html>

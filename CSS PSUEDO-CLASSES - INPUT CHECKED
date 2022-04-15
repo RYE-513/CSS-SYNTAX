@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      input:checked {
+         outline: 3px solid #903C56;
+      }
+      input:checked + label {
+         color: #903C56;
+      }
+      #checkbox:checked {
+         box-shadow: 2px 2px 4px 4px #903C56;
+      }
+      #checkbox:checked + label {
+         box-shadow: 2px 2px 4px 4px #903C56;
+      }
+   </style>
+</head>
+<body>
+   <p> The <b>:checked</b> CSS pseudo-class selector represents any... </p>
+   <ul>
+      <li><b>radio</b> (&lt;input
+   type="radio"&gt;)</li>
+      <li><b>checkbox</b> (&lt;input type="checkbox"&gt;)</li>
+      <li><b>option</b> (&lt;option&gt; in a &lt;select&gt;) element</li>
+   </ul>
+   <p> ...that is checked or toggled to an on state. </p>
+   
+   <h3> Example: </h3>
+   <form action="#">
+      <p> Gender: </p>
+      <div>
+         <input type="radio" name="gender" id="male">
+         <label for="male"> Male </label>
+         <input type="radio" name="gender" id="female">
+         <label for="female"> Female </label>
+      </div>
+      <p> Are you brilliant? </p>
+      <div>
+         <input type="checkbox" name="my-checkbox" id="checkbox" />
+         <label for="checkbox"> Yes, I am! </label>
+      </div>
+   </form>
+</body>
+</html>

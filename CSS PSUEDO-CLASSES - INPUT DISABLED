@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      input:disabled {
+         color: red;
+      }
+   </style>
+</head>
+<body>
+   <p> The <b>:disabled</b> CSS pseudo-class represents any disabled element. An element is disabled if it can't be activated (selected, clicked on, typed into, etc.) or accept focus. </p>
+   
+   <h3> Example: </h3>
+   <form action="#">
+      <input type="text" value="I am not disabled">
+      <input type="text" value="I am disabled" disabled>
+   </form>
+</body>
+</html>

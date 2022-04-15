@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      * {
+         box-sizing: border-box;
+      }
+      html, body {
+         padding: 0;
+         margin: 0;
+      }
+      .container {
+         content: "";
+         display: block; 
+         clear: both;
+      }
+      .container > div {
+         padding-top: 70px;
+         padding-bottom: 70px;
+         text-align: center;
+         float: left;
+         border-right: 1px solid black;
+         background: lightgrey;
+      }
+      .box1 {
+         width: 25%;
+      }
+      .box2 {
+         width: 75%;
+      }
+   </style>
+</head>
+<body>
+   <div class="container">
+      <div class="box1"> 25% </div>
+      <div class="box2"> 75% </div>
+   </div>
+   <br>
+   <p> This is a two-column layout of grid boxes where the first box is <b>25%</b> wide and the second is <b>75%</b>. </p>
+</body>
+</html>
