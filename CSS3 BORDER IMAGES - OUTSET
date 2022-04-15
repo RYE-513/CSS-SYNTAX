@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      #outset {
+         width: 10rem;
+         background: #cef;
+         border: 1.4rem solid;
+         border-image: url("images/blue-planet.jpg") 40;
+         border-image-outset: 1.5;  /* = 1.5 * 1.4rem = 2.1rem */
+         margin: 2.1rem;
+      }
+   </style>
+</head>
+<body>
+   <div id="outset"> This element has an outset border image! </div>
+</body>
+</html>

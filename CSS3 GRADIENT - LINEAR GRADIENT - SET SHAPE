@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      .ellipse {
+         background-image: radial-gradient(ellipse at center, blue, red, yellow);
+         width: 350px;
+         height: 200px;
+      }
+      .circle {
+         background-image: radial-gradient(circle at center, blue, red, yellow);
+         width: 350px;
+         height: 200px;
+      }
+   </style>
+</head>
+<body>
+   <div class="ellipse"></div>
+   <div class="circle"></div>
+</body>
+</html>

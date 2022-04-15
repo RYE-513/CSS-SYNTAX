@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      div {
+         color: transparent;
+         font-size: 35px;
+         font-weight: bold;
+         text-align: center;
+         width: 300px;
+         height: 300px;
+         border: 10px double black;
+         padding: 20px;
+         background: url("images/noisy-blue.jpg");
+         background-repeat: no-repeat;
+         background-clip: text;
+         -webkit-background-clip: text;
+      }
+   </style>
+</head>
+<body>
+   <div>
+      <p> Hello World! </p>
+      <p> Love Codeliber! </p>
+   </div>
+</body>
+</html>

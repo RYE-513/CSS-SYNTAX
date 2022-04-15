@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      div {
+         margin: 10px;
+         width: 250px;
+         height: 150px;
+      }
+      #border-image-1 {
+         border: 10px solid transparent;
+         padding: 15px;
+         border-image: url("images/border.png") round 50;
+      }
+      #border-image-2 {
+         border: 10px solid transparent;
+         padding: 15px;
+         border-image: url("images/border.png") round 20%;
+      }
+      #border-image-3 {
+         border: 10px solid transparent;
+         padding: 15px;
+         border-image: url("images/border.png") round 30%;
+      }
+   </style>
+</head>
+<body>
+   <div id="border-image-1"></div>
+   <div id="border-image-2"></div>
+   <div id="border-image-3"></div>
+</body>
+</html>

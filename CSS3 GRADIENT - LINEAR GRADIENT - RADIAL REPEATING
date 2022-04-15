@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      div {
+         background-image: repeating-radial-gradient(red 20%, yellow 40%, green 40%);
+         width: 350px;
+         height: 200px;
+      }
+   </style>
+</head>
+<body>
+   <div></div>
+</body>
+</html>

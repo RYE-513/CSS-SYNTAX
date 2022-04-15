@@ -1,0 +1,25 @@
+<DOCTYPE html>
+<html>
+<head>
+   <title> The background-clip,-webkit-background-clip Property </title>
+   <style type="text/css">
+      div {
+         color: white;
+         font-size: 35px;
+         width: 300px;
+         height: 300px;
+         border: 10px double black;
+         padding: 20px;
+         background: url("images/noisy-blue.jpg");
+         background-clip: border-box;
+         -webkit-background-clip: border-box;
+      }
+   </style>
+</head>
+<body>
+   <div>
+      <p> Hello World! </p>
+      <p> I love Codeliber! </p>
+   </div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      div {
+         background-image: repeating-linear-gradient(45deg, #173459, #903C56 15%, #78969D 20%);
+         width: 350px;
+         height: 200px;
+      }
+   </style>
+</head>
+<body>
+   <div></div>
+</body>
+</html>

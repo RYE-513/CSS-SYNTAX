@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      body {
+         background-image: url("images/small-sunflower.png"), url("images/star.png");
+         /* try changing the values below to see the effect */
+         background-size: 50px, 100px;
+      }
+   </style>
+</head>
+<body>
+   
+</body>
+</html>

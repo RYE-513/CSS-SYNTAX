@@ -1,0 +1,16 @@
+<DOCTYPE html>
+<html>
+<head>
+   <title> The background-image Property </title>
+   <style type="text/css">
+      div {
+         background-image: radial-gradient(ellipse closest-side at center, blue, red, yellow);
+         width: 350px;
+         height: 200px;
+      }
+   </style>
+</head>
+<body>
+   <div></div>
+</body>
+</html>

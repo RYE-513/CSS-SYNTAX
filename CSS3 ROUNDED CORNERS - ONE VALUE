@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      div {
+         /* all four corners */
+         border-radius: 10px;
+         border: 2px solid #78969D;
+         width: 200px;
+         height: 200px;
+         padding: 30px;
+         color: #f8f9f9;
+         background: #173459;
+      }
+   </style>
+</head>
+<body>
+   <div> Lorem ipsum dolor sit amet. </div>
+</body>
+</html>

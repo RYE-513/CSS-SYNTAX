@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      p {
+         color: hsl(0, 100%, 25%);
+      }
+   </style>
+</head>
+<body>
+   <p> I love Codeliber! </p>
+</body>
+</html>
