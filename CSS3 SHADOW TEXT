@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      p {
+         text-shadow: 2px 2px;
+      }
+   </style>
+</head>
+<body>
+   <p style="text-align: center; font-size: 140%"> Lorem ipsum dolor sit amet. Vivamus magna velit, convallis ut puris at, facilisis lobortis elit. </p>
+</body>
+</html>

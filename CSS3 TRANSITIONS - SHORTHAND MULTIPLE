@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      /* property | duration */
+      .transition {
+         transition: margin-top 2s linear, width 1s ease-in, height 1s ease-out;
+      }
+      div {
+         width: 100px;
+         height: 100px;
+         background: black;
+         color: white;
+         margin-top: 0px;
+      }
+      div:hover {
+         margin-top: 200px;
+         width: 200px;
+         height: 200px;
+      }
+   </style>
+</head>
+<body>
+   <p> Tap the elements to see how they work. </p>
+   <div class="transition">.transition</div>
+</body>
+</html>

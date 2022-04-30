@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      @font-face {
+         font-family: myFont;
+         src: url('css/fonts/Canterbury.ttf');
+      }
+      /* you can now use your custom font */
+      h1 {
+         font-family: myFont;
+      }
+   </style>
+</head>
+<body>
+   <h1> Lorem Ipsum Dolor Sit Amet </h1>
+</body>
+</html>

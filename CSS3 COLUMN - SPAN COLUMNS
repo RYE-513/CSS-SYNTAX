@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      div {
+         column-count: 3;
+      }
+      h3 {
+         column-span: all;
+         text-align: center;
+      }
+   </style>
+</head>
+<body>
+   <div>
+      <h3> Lorem Ipsum </h3>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lobortis mollis mauris, vitae commodo arcu dictum ut. Donec vel risus viverra elit faucibus scelerisque. In hac habitasse platea dictumst. Phasellus lobortis a velit ac posuere. Nunc nisl lorem, laoreet blandit nibh ac, maximus efficitur magna. Donec at consectetur dui, eget tincidunt urna. Vivamus consequat ornare metus sit amet congue. Maecenas erat nisi, bibendum vel porttitor quis, posuere quis nulla. Integer lobortis fermentum dictum. Vestibulum malesuada sollicitudin nibh, eget gravida est tincidunt sed. Ut ac elit vitae arcu condimentum consectetur. Donec tincidunt pharetra augue, ac hendrerit nisi sollicitudin vel.
+   </div>
+</body>
+</html>

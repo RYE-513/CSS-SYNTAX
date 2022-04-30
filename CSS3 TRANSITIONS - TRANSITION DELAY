@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      div {
+         width: 100px;
+         height: 100px;
+         background: #903C56;
+         transition-property: height;
+         transition-duration: 2s;
+         transition-delay: 1s;
+      }
+      div:hover {
+         height: 300px;
+      }
+   </style>
+</head>
+<body>
+   <p> Tap the element to see how it works. </p>
+   <div></div>
+   <p> As you may notice, the transition started to take effect one second after you clicked it. </p>
+</body>
+</html>

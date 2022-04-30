@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      .normal {
+         word-break: normal;
+      }
+      .break-all {
+         word-break: break-all;
+      }
+      .keep-all {
+         word-break: keep-all;
+      }
+      .break-word {
+         word-break: break-word;
+      }
+      p {
+         padding: 3px;
+         border: 1px solid;
+         width: 250px;
+      }
+   </style>
+</head>
+<body>
+   <p>1. <code>word-break: normal</code></p> 
+   <p class="normal">This is a long and 
+     Honorificabilitudinitatibus califragilisticexpialidocious Taumatawhakatangihangakoauauotamateaturipukakapikimaungahoronukupokaiwhenuakitanatahu
+    グレートブリテンおよび北アイルランド連合王国という言葉は本当に長い言葉</p>
+    
+   <p>2. <code>word-break: break-all</code></p> 
+   <p class="break-all">This is a long and 
+     Honorificabilitudinitatibus califragilisticexpialidocious Taumatawhakatangihangakoauauotamateaturipukakapikimaungahoronukupokaiwhenuakitanatahu
+    グレートブリテンおよび北アイルランド連合王国という言葉は本当に長い言葉</p>
+    
+   <p>3. <code>word-break: keep-all;</code></p> 
+   <p class="keep-all">This is a long and 
+     Honorificabilitudinitatibus califragilisticexpialidocious Taumatawhakatangihangakoauauotamateaturipukakapikimaungahoronukupokaiwhenuakitanatahu
+    グレートブリテンおよび北アイルランド連合王国という言葉は本当に長い言葉</p>
+   
+   <p>4. <code>word-break: break-word</code></p> 
+   <p class="break-word">This is a long and 
+     Honorificabilitudinitatibus califragilisticexpialidocious Taumatawhakatangihangakoauauotamateaturipukakapikimaungahoronukupokaiwhenuakitanatahu
+    グレートブリテンおよび北アイルランド連合王国という言葉は本当に長い言葉</p>
+</body>
+</html>

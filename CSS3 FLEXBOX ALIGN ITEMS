@@ -1,0 +1,38 @@
+<DOCTYPE html>
+<html>
+<head>
+   <title> The align-items Property </title>
+   <style type="text/css">
+      .container {
+         display: flex;
+         align-items: flex-start;
+         background: blue;
+         padding: 5px;
+         height: 400px;
+      }
+      .container > div {
+         background: yellow;
+         width: 130px;
+         line-height: 80px;
+         text-align: center;
+         margin: 5px;
+      }
+   </style>
+</head>
+<body>
+   <p> To better demonstrate this, we have to increase the height of the flex container. </p>
+   <div class="container">
+      <div style="font-size: 20px"> 1 </div>
+      <div style="font-size: 40px"> 2 </div>
+      <div style="font-size: 60px"> 3 </div>
+   </div>
+   <p> <b>align-items</b> valid values: </p>
+   <ul>
+      <li><b>flex-start</b>: aligns flex items to the start of the cross axis </li>
+      <li><b>flex-end</b>: aligns flex items to the end of the cross axis </li>
+      <li><b>center</b>: aligns flex items to the center (or middle) of the cross axis </li>
+      <li><b>stretch</b>: default; stretches flex items to fill the container </li>
+      <li><b>baseline</b>: aligns items such as their baselines are aligned </li>
+   </ul>
+</body>
+</html>

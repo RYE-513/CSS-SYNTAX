@@ -1,0 +1,34 @@
+<DOCTYPE html>
+<html>
+<head>
+   <title> The flex-direction Property </title>
+   <style type="text/css">
+      .container {
+         display: flex;
+         flex-direction: row;
+         background: blue;
+         padding: 10px;
+      }
+      .container > div {
+         background: yellow;
+         width: 100px;
+         height: 100px;
+         margin: 5px;
+      }
+   </style>
+</head>
+<body>
+   <div class="container">
+      <div> 1 </div>
+      <div> 2 </div>
+      <div> 3 </div>
+   </div>
+   <p> <b>flex-direction</b> valid values: </p>
+   <ul>
+      <li><b>row</b>: the flex items run along from left to right in <code>ltr</code>; right to left in <code>rtl</code></li>
+      <li><b>row-reverse</b>: the flex items run along from right to left in <code>ltr</code>; left to right in <code>rtl</code></li>
+      <li><b>column</b>: the flex items run along from top to bottom </li>
+      <li><b>column-reverse</b>: the flex items run along from bottom to top </li>
+   </ul>
+</body>
+</html>

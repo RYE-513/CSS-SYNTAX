@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      #nowrap {
+         flex-wrap: nowrap;
+      }
+      #wrap {
+         flex-wrap: wrap;
+      }
+      #wrap-reverse {
+         flex-wrap: wrap-reverse;
+      }
+      .container {
+         display: flex;
+         background: blue;
+         padding: 10px;
+      }
+      .container > div {
+         background: yellow;
+         width: 140px;
+         height: 140px;
+         margin: 5px;
+      }
+   </style>
+</head>
+<body>
+   <h3> flex-wrap: nowrap; </h3>
+   <p> default; the flex items are forced to render onto one line </p>
+   <div class="container" id="nowrap">
+      <div> 1 </div>
+      <div> 2 </div>
+      <div> 3 </div>
+      <div> 4 </div>
+      <div> 5 </div>
+      <div> 6 </div>
+      <div> 7 </div>
+      <div> 8 </div>
+      <div> 9 </div>
+      <div> 10 </div>
+      <div> 11 </div>
+      <div> 12 </div>
+   </div>
+   <h3> flex-wrap: wrap; </h3>
+   <p> the flex items break into multiple lines when necessary </p>
+   <div class="container" id="wrap">
+      <div> 1 </div>
+      <div> 2 </div>
+      <div> 3 </div>
+      <div> 4 </div>
+      <div> 5 </div>
+      <div> 6 </div>
+      <div> 7 </div>
+      <div> 8 </div>
+      <div> 9 </div>
+      <div> 10 </div>
+      <div> 11 </div>
+      <div> 12 </div>
+   </div>
+   <h3> flex-wrap: wrap-reverse; </h3>
+   <p> the flex items break into multiple lines when necessary but in reversed order </p>
+   <div class="container" id="wrap-reverse">
+      <div> 1 </div>
+      <div> 2 </div>
+      <div> 3 </div>
+      <div> 4 </div>
+      <div> 5 </div>
+      <div> 6 </div>
+      <div> 7 </div>
+      <div> 8 </div>
+      <div> 9 </div>
+      <div> 10 </div>
+      <div> 11 </div>
+      <div> 12 </div>
+   </div>
+</body>
+</html>

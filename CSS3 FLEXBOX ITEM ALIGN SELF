@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      .container {
+         display: flex;
+         align-items: center;
+         background: blue;
+         padding: 5px;
+         height: 400px;
+      }
+      .container > div {
+         background: yellow;
+         width: 130px;
+         line-height: 80px;
+         text-align: center;
+         margin: 5px;
+      }
+      #flex-item-2 {
+         align-self: stretch;
+      }
+   </style>
+</head>
+<body>
+   <p> To better demonstrate this, we have to increase the height of the flex container. </p>
+   <div class="container">
+      <div> 1 </div>
+      <div id="flex-item-2"> 2 </div>
+      <div> 3 </div>
+   </div>
+   <p> <b>align-content</b> valid values: </p>
+   <ul>
+      <li><b>flex-start</b>: aligns a flex item to the start of the cross axis </li>
+      <li><b>flex-end</b>: aligns a flex item to the end of the cross axis </li>
+      <li><b>center</b>: aligns a flex item to the center (or middle) of the cross axis </li>
+      <li><b>stretch</b>: default; stretches a flex item to fill the container </li>
+      <li><b>baseline</b>: aligns a flex item such as its baseline are aligned with other baselines </li>
+   </ul>
+</body>
+</html>

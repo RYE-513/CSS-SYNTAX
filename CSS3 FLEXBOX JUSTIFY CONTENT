@@ -1,0 +1,36 @@
+<DOCTYPE html>
+<html>
+<head>
+   <title> The justify-content Property </title>
+   <style type="text/css">
+      .container {
+         display: flex;
+         justify-content: flex-start;
+         background: blue;
+         padding: 5px;
+      }
+      .container > div {
+         background: yellow;
+         width: 130px;
+         height: 130px;
+         margin: 5px;
+      }
+   </style>
+</head>
+<body>
+   <div class="container" id="wrap-reverse">
+      <div style="width: 20%"> 1 </div>
+      <div style="width: 30%"> 2 </div>
+      <div style="width: 20%"> 3 </div>
+   </div>
+   <p> <b>justify-content</b> valid values: </p>
+   <ul>
+      <li><b>flex-start</b>: default; packs flex items from the start </li>
+      <li><b>flex-end</b>: packs flex items from the end  </li>
+      <li><b>center</b>: packs flex items around the center </li>
+      <li><b>space-between</b>: distributes flex items evenly with the first item is on the start line and the last in the end line  </li>
+      <li><b>space-around</b>: distributes flex items evenly with equal space around them </li>
+      <li><b>space-evenly</b>: distributes flex items and makes spacing between any two items equal </li>
+   </ul>
+</body>
+</html>

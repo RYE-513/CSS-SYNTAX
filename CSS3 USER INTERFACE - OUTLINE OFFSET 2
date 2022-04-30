@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      div {
+         outline: 3px solid blue;
+         outline-offset: 10px;
+         border: 1px solid black;
+         margin: 10px;
+      }
+   </style>
+</head>
+<body>
+   <br>
+   <div> Lorem ipsum dolor sit amet. </div>
+</body>
+</html>

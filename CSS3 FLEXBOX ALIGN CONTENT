@@ -1,0 +1,46 @@
+<DOCTYPE html>
+<html>
+<head>
+   <title> The align-content Property </title>
+   <style type="text/css">
+      .container {
+         display: flex;
+         flex-wrap: wrap;
+         align-content: stretch;
+         background: blue;
+         padding: 5px;
+         height: 400px;
+      }
+      .container > div {
+         background: yellow;
+         width: 100px;
+         line-height: 80px;
+         text-align: center;
+         margin: 5px;
+      }
+   </style>
+</head>
+<body>
+   <p> Since the <b>align-content</b> property does not work when there is only one line of flex items, we need to set the <b>flex-wrap: wrap</b> CSS declaration to wrap the flex items onto multiple lines. </p>
+   <div class="container">
+      <div> 1 </div>
+      <div> 2 </div>
+      <div> 3 </div>
+      <div> 4 </div>
+      <div> 5 </div>
+      <div> 6 </div>
+      <div> 7 </div>
+      <div> 8 </div>
+      <div> 9 </div>
+   </div>
+   <p> <b>align-content</b> valid values: </p>
+   <ul>
+      <li><b>stretch</b>: flex items are stretched to take the remaining space </li>
+      <li><b>flex-start</b>: packs items to the start of the flex container's cross start </li>
+      <li><b>flex-end</b>: packs items to the start of the flex container's cross end </li>
+      <li><b>center</b>: packs items to the center toward the center of the alignment of the cross axis </li>
+      <li><b>space-between</b>: distributes flex items evenly within the alignment of the cross axis; the space between adjacent (any two) items is equal; the first line is at the start of the cross axis and the last is at the end </li>
+      <li><b>space-around</b>: distributes flex items evenly within the alignment of the cross axis with equal space around each line </li>
+   </ul>
+</body>
+</html>

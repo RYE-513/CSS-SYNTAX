@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      .container {
+         display: flex;
+         width: 500px;
+         background: blue;
+         padding: 10px;
+      }
+      .container > div {
+         flex-basis: 130px;
+         height: 100px;
+         background: yellow;
+         margin: 5px;
+      }
+   </style>
+</head>
+<body>   
+   <div class="container">
+      <div style="flex-shrink: 1"> 1 </div>
+      <div style="flex-shrink: 1"> 2 </div>
+      <div style="flex-shrink: 2"> 3 </div>
+      <div style="flex-shrink: 2"> 4 </div>
+      <div style="flex-shrink: 1"> 5 </div>
+   </div>
+</body>
+</html>

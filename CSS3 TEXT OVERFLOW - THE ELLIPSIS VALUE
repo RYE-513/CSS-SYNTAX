@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      p {
+         text-overflow: ellipsis;
+         width: 50%;
+         padding: 2px 5px;
+         background: lightgray;
+         
+         /* both are required */
+         overflow: hidden;
+         white-space: nowrap;
+      }
+   </style>
+</head>
+<body>
+   <p> Lorem ipsum dolor sit amet. Maecenas dictum metus in leo aliquam, nec pellentesque mauris vulputate. Phasellus dui eros, efficitur et turpis a, lacinia sollicitudin lectus. In hac habitasse platea dictumst. Sed dictum augue lectus, sit amet condimentum mauris maximus nec. </p>
+</body>
+</html>
