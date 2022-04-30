@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      div {
+         color: #f8f9f9;
+         background: #173459;
+         font-size: 20px;
+         width: 200px;
+         height: 200px;
+      }
+      .scaled {
+         transform: scale(.5);
+      }
+      .scaled-2 {
+         transform: scale(2);
+      }
+   </style>
+</head>
+<body>
+   <div> I am a div element! </div>
+   <div class="scaled"> I am a div element! </div>
+   <div class="scaled-2"> I am a div element! </div>
+</body>
+</html>

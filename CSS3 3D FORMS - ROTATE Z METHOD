@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      .rotated {
+         transform: rotateZ(90deg);
+      }
+      div {
+         color: white;
+         background: black;
+         width: 150px;
+         height: 150px;
+      }
+   </style>
+</head>
+<body>
+   <div> I am normal. </div>
+   <br>
+   <div class="rotated"> I am rotated. </div>
+</body>
+</html>

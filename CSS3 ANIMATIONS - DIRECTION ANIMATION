@@ -1,0 +1,31 @@
+<DOCTYPE html>
+<html>
+<head>
+   <title> The animation-direction Property </title>
+   <style type="text/css">
+      @keyframes myAnimation {
+         from {
+            background-color: gold;
+            left: 0px;
+         }
+         to {
+            background-color: green;
+            left: 200px;
+         }
+      }
+      div {
+         animation-name: myAnimation;
+         animation-duration: 2s;
+         animation-iteration-count: infinite;
+         animation-direction: normal;
+         position: relative;
+         width: 100px;
+         height: 100px;
+      }
+   </style>
+</head>
+<body>
+   <p> We have defined the <b>animation-iteration-count</b> CSS property to see how <b>animation-direction</b> property works. </p>
+   <div></div>
+</body>
+</html>

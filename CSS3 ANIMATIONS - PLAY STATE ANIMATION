@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      @keyframes running {
+         from {
+            top: 0px;
+         }
+         to {
+            top: 500px;
+         }
+      }
+      .running {
+         animation-name: running;
+         animation-duration: 5s;
+         animation-play-state: running; /* default */
+         background: #173459;
+      }
+      .paused {
+         animation-name: paused;
+         animation-duration: 5s;
+         animation-play-state: paused;
+      }
+      div {
+         width: 150px;
+         height: 100px;
+         position: relative;
+         background: black;
+         color: white;
+      }
+   </style>
+</head>
+<body>
+   <div class="running"> My animation is currently playing. </div>
+   <br>
+   <div class="paused"> My animation is currently paused. </div>
+</body>
+</html>
