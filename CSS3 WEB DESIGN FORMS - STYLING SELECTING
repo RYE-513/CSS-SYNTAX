@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      select {
+         outline: none;
+         border: none;
+         background: #173459;
+         color: white;
+         padding: 10px;
+      }
+   </style>
+</head>
+<body>
+   <select name="fruits">
+      <option value="apple"> Apple </option>
+      <option value="orange"> Orange </option>
+      <option value="mango"> Mango </option>
+      <option value="strawberry"> Strawberry </option>
+   </select>
+</body>
+</html>

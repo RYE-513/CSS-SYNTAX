@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      input {
+         outline: none;
+         padding: 10px;
+      }
+   </style>
+</head>
+<body>
+   <input type="text" placeholder="Text goes here..." />
+</body>
+</html>

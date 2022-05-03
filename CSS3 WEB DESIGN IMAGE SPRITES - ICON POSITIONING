@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      i {
+         display: inline-block;
+         width: 30px;
+         height: 30px;
+         background-image: url(images/icons.png);
+      }
+      i.home-icon {
+         background-position: top 0 left 0;
+      }
+      i.envelope-icon {
+         background-position: top 0 left -30px;
+      }
+      i.bell-icon {
+         background-position: top 0 left -60px;
+      }
+      i.dashboard-icon {
+         background-position: top 0 left -90px;
+      }
+   </style>
+</head>
+<body>
+   <h1> The Icons </h1>
+   <p><i class="home-icon"></i></p>
+   <p><i class="envelope-icon"></i></p>
+   <p><i class="bell-icon"></i></p>
+   <p><i class="dashboard-icon"></i></p>
+</body>
+</html>

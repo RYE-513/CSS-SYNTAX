@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      input {
+         outline: none;
+         border: none;
+         padding: 10px;
+         background: #0076ff;
+         color: white;
+      }
+      input::placeholder {
+         color: white;
+      }
+   </style>
+</head>
+<body>
+   <input type="text" placeholder="Text goes here..." />
+</body>
+</html>

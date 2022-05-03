@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      textarea {
+         width: 300px;
+         height: 300px;
+         outline: none;
+         border: none;
+         padding: 10px;
+         background: #0076ff;
+         color: white;
+         box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+      }
+      textarea::placeholder {
+         color: white;
+      }
+   </style>
+</head>
+<body>
+   <textarea placeholder="Text goes here..."></textarea>
+</body>
+</html>
