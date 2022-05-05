@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      @media only screen and (min-width: 480px) {
+         p {
+            font-size: 130%;
+         }
+      }
+   </style>
+</head>
+<body>
+   <p> Rotate the device to landscape mode and then back to portrait alternatively to see the magic happen. </p>
+</body>
+</html>

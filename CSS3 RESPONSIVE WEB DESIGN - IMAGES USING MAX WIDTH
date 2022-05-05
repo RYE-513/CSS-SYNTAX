@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      img {
+         max-width: 100%;
+         height: auto;
+      }
+   </style>
+</head>
+<body>
+   <img src="images/city.jpg" />
+</body>
+</html>
