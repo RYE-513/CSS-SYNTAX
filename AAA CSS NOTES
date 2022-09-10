@@ -1,0 +1,41 @@
+___
+𝗪𝗛𝗔𝗧 𝗜𝗦 𝗖𝗦𝗦?
+___
+CSS - Cascading Style Sheet Language
+• is used to give a design, model, layout and resolution of HTML document
+• describes how elements should be rendered on screen
+• case sensitive
+___
+𝗖𝗦𝗦 𝗦𝗬𝗡𝗧𝗔𝗫
+___
+CSS RULESET/RULE or "CSS Syntax" is composed of selector and a declaration block.
+
+• Selector or group of selector -  are the entire elements
+• Declaration Block - the main function of elements
+• Declaration - these are the value inside the Declaration Block
+it has a semicolon at the end of statement
+
+• CSS Declaration is composed of Property Separator and Value
+e.g.
+___
+background-color : lightblue;
+___
+• background-color - property
+• : - separator
+• lightblue - value
+___
+• Property - human readable identifier indicates which stylistic features to change.
+• Value - given to a property, specific style should he changed
+---
+𝗖𝗦𝗦 𝗜𝗡𝗦𝗘𝗥𝗧𝗜𝗡𝗚
+___
+• there are three ways to insert a CSS into an HTML document.
+
+1. Internal Styling Sheet
+2. External Styling Sheet
+3. Inline Styling
+
+• Internal Styling Sheet - when a [single] HTML Document has it's unique styles.
+• External Styling Sheet - when a [multiple] HTML pages have the same styles.
+• Inline Styling - styling a single element, using "style attribute"
+___
